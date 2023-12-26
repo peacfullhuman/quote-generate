@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    background: #06283D;
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+}
+
+.lang{
+    display: flex;
+    justify-content: right;
+    user-select: none;
+}
+
+.langBtn{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #b39e66;
+    height: 35px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.langBtn.ruButten{
+    border-bottom-left-radius: 15px;
+}
+
+.langBtn.enButten{
+    margin-right: 5px;
+    border-bottom-right-radius: 15px;
+}
+
+.container{
+    width: 95%;
+    height: 75vh;
+    display: flex;
+}
+
+.quotes{
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: black;
+    background-color: white;
+    border: 10px solid #b39e66;
+    border-radius: 75px;
+}
+
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+
+.btn-generate{
+    text-align: center;
+}
+
+.button{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 3vh;
+    font-weight: 500;
+    color: #06283D;
+    background-color: #b39e66;
+    padding: 10px 50px;
+    border-radius: 100px;
+    user-select: none;
+
+    transition: .5s ease;
+}
+
+.button:hover{
+    background-color: #94855e;
+}
+
+.bottom-zone{
+    text-align: center;
+    color: white;
+    margin-top: 75px;
+}
+
+.bottom-zone a{
+    text-decoration: none;
+    color: #94855e;
+}
+
+.bottom-zone p span{
+    color: #b39e66;
+}
+
+@media(max-width:480px){
+    .quotes p, .quotes h3{
+        font-size: 1rem;
+    }
+}
